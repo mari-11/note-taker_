@@ -1,0 +1,23 @@
+{
+  "name": "note-taker_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mari-11/note-taker_.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mari-11/note-taker_/issues"
+  },
+  "homepage": "https://github.com/mari-11/note-taker_#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
