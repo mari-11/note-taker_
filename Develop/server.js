@@ -4,7 +4,8 @@ const fs = require("fs");
 const notes = require("./public/db/db.json");
 const uuid = require("uuid");
 const { DH_CHECK_P_NOT_SAFE_PRIME, SSL_OP_SSLEAY_080_CLIENT_DH_BUG } = require("constants");
-var PORT = process.env.PORT || 3000;
+//var PORT = process.env.PORT || 3000;
+const PORT = http.createServer(process.env.PORT || 3000);
 const app = express();
 
 
